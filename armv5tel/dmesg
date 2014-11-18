@@ -1,0 +1,192 @@
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 3.2.0-4-kirkwood (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 Debian 3.2.63-2+deb7u1
+[    0.000000] CPU: Feroceon 88FR131 [56251311] revision 1 (ARMv5TE), cr=00053977
+[    0.000000] CPU: VIVT data cache, VIVT instruction cache
+[    0.000000] Machine: Marvell eSATA SheevaPlug Reference Board
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] On node 0 totalpages: 131072
+[    0.000000] free_area_init_node: node 0, pgdat c0445f44, node_mem_map c04ad000
+[    0.000000]   Normal zone: 1024 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 130048 pages, LIFO batch:31
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 130048
+[    0.000000] Kernel command line: 
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 512MB = 512MB total
+[    0.000000] Memory: 507680k/507680k available, 16608k reserved, 0K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xe0800000 - 0xfe800000   ( 480 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+[    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc03e85c0   (3970 kB)
+[    0.000000]       .init : 0xc03e9000 - 0xc040d000   ( 144 kB)
+[    0.000000]       .data : 0xc040e000 - 0xc0448ca0   ( 236 kB)
+[    0.000000]        .bss : 0xc0448cc4 - 0xc04ac35c   ( 398 kB)
+[    0.000000] NR_IRQS:114
+[    0.000000] sched_clock: 32 bits at 200MHz, resolution 5ns, wraps every 21474ms
+[    0.000000] Console: colour dummy device 80x30
+[    0.000000] console [tty0] enabled
+[    9.042750] Calibrating delay loop... 1191.11 BogoMIPS (lpj=5955584)
+[    9.132398] pid_max: default: 32768 minimum: 301
+[    9.132536] Security Framework initialized
+[    9.132627] Mount-cache hash table entries: 512
+[    9.132976] Initializing cgroup subsys cpuacct
+[    9.133022] Initializing cgroup subsys memory
+[    9.133061] Initializing cgroup subsys devices
+[    9.133083] Initializing cgroup subsys freezer
+[    9.133102] Initializing cgroup subsys net_cls
+[    9.133120] Initializing cgroup subsys blkio
+[    9.133151] Initializing cgroup subsys perf_event
+[    9.133257] CPU: Testing write buffer coherency: ok
+[    9.134548] devtmpfs: initialized
+[    9.136397] print_constraints: dummy: 
+[    9.136667] NET: Registered protocol family 16
+[    9.137488] Kirkwood: MV88F6281-A1, TCLK=200000000.
+[    9.137526] Feroceon L2: Enabling L2
+[    9.137572] Feroceon L2: Cache support initialised.
+[    9.138186] initial MPP regs: 01111111 11113322 00001111 00100000 00000000 00000000 00000000
+[    9.138208]   final MPP regs: 01111111 11113322 00001111 00000000 00000000 00000000 00000000
+[    9.140583] bio: create slab <bio-0> at 0
+[    9.140976] vgaarb: loaded
+[    9.141516] Switching to clocksource orion_clocksource
+[    9.155767] NET: Registered protocol family 2
+[    9.166389] IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    9.167022] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[    9.167396] TCP bind hash table entries: 16384 (order: 4, 65536 bytes)
+[    9.167586] TCP: Hash tables configured (established 16384 bind 16384)
+[    9.167606] TCP reno registered
+[    9.167622] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    9.167654] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    9.167874] NET: Registered protocol family 1
+[    9.167917] PCI: CLS 0 bytes, default 32
+[    9.168070] Unpacking initramfs...
+[    9.767223] Freeing initrd memory: 7284K
+[    9.767265] NetWinder Floating Point Emulator V0.97 (double precision)
+[    9.767821] audit: initializing netlink socket (disabled)
+[    9.767880] type=2000 audit(0.710:1): initialized
+[    9.769312] VFS: Disk quotas dquot_6.5.2
+[    9.769416] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    9.769532] JFFS2 version 2.2. (NAND) (SUMMARY)  \xffffffc2\xffffffa9\xffffffa9 2001-2006 Red Hat, Inc.
+[    9.769881] msgmni has been set to 1005
+[    9.771415] alg: No test for stdrng (krng)
+[    9.771579] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+[    9.771613] io scheduler noop registered
+[    9.771629] io scheduler deadline registered
+[    9.771694] io scheduler cfq registered (default)
+[    9.771786] mv_xor_shared mv_xor_shared.0: Marvell shared XOR driver
+[    9.771832] mv_xor_shared mv_xor_shared.1: Marvell shared XOR driver
+[    9.811598] mv_xor mv_xor.0: Marvell XOR: ( xor cpy )
+[    9.851595] mv_xor mv_xor.1: Marvell XOR: ( xor fill cpy )
+[    9.891594] mv_xor mv_xor.2: Marvell XOR: ( xor cpy )
+[    9.931594] mv_xor mv_xor.3: Marvell XOR: ( xor fill cpy )
+[    9.931993] Serial: 8250/16550 driver, 2 ports, IRQ sharing disabled
+[    9.952533] serial8250.0: ttyS0 at MMIO 0xf1012000 (irq = 33) is a 16550A
+[    9.953554] ONFI flash detected
+[    9.953821] NAND device: Manufacturer ID: 0xad, Chip ID: 0xdc (Hynix NAND 512MiB 3,3V 8-bit)
+[    9.953858] Scanning device for bad blocks
+[   10.258225] Creating 3 MTD partitions on "orion_nand":
+[   10.258251] 0x000000000000-0x000000100000 : "u-boot"
+[   10.259101] 0x000000100000-0x000000500000 : "uImage"
+[   10.259931] 0x000000500000-0x000020000000 : "root"
+[   10.261821] mousedev: PS/2 mouse device common for all mice
+[   10.262182] rtc-mv rtc-mv: rtc core: registered rtc-mv as rtc0
+[   10.262294] i2c /dev entries driver
+[   10.262456] cpuidle: using governor ladder
+[   10.262547] cpuidle: using governor menu
+[   10.262601] leds-gpio: probe of leds-gpio failed with error -22
+[   10.263378] TCP cubic registered
+[   10.263401] NET: Registered protocol family 17
+[   10.263429] Registering the dns_resolver key type
+[   10.263504] Gating clock of unused units
+[   10.263512] before: 0x00dfc3fd
+[   10.263519]  after: 0x00c7c1d9
+[   10.263964] registered taskstats version 1
+[   10.264384] rtc-mv rtc-mv: setting system clock to 2014-11-18 02:27:47 UTC (1416277667)
+[   10.264462] Initializing network drop monitor service
+[   10.265040] Freeing init memory: 144K
+[   10.332115] udevd[47]: starting version 175
+[   10.390120] mv643xx_eth: MV-643xx 10/100/1000 ethernet driver version 1.4
+[   10.390259] mv643xx_eth smi: probed
+[   10.481477] mv643xx_eth_port mv643xx_eth_port.0: eth0: port 0 with MAC address f0:ad:4e:00:6b:21
+[   10.505583] mmc0: mvsdio driver initialized, using GPIO 47 for card detection
+[   10.531297] usbcore: registered new interface driver usbfs
+[   10.531411] usbcore: registered new interface driver hub
+[   10.538042] usbcore: registered new device driver usb
+[   10.540050] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[   10.540135] orion-ehci orion-ehci.0: Marvell Orion EHCI
+[   10.540212] orion-ehci orion-ehci.0: new USB bus registered, assigned bus number 1
+[   10.557268] SCSI subsystem initialized
+[   10.569967] orion-ehci orion-ehci.0: irq 19, io mem 0xf1050000
+[   10.581628] orion-ehci orion-ehci.0: USB 2.0 started, EHCI 1.00
+[   10.581735] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[   10.581760] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   10.581785] usb usb1: Product: Marvell Orion EHCI
+[   10.581802] usb usb1: Manufacturer: Linux 3.2.0-4-kirkwood ehci_hcd
+[   10.581821] usb usb1: SerialNumber: orion-ehci.0
+[   10.582328] hub 1-0:1.0: USB hub found
+[   10.582364] hub 1-0:1.0: 1 port detected
+[   10.602386] mmc0: new high speed SD card at address e624
+[   10.602731] libata version 3.00 loaded.
+[   10.604593] sata_mv sata_mv.0: version 1.28
+[   10.604729] sata_mv sata_mv.0: slots 32 ports 2
+[   10.614889] scsi0 : sata_mv
+[   10.619747] scsi1 : sata_mv
+[   10.620027] ata1: SATA max UDMA/133 irq 21
+[   10.620049] ata2: SATA max UDMA/133 irq 21
+[   10.694138] mmcblk0: mmc0:e624 SD02G 1.89 GiB 
+[   10.697241]  mmcblk0: p1 p2 p3 < p5 >
+[   10.901577] usb 1-1: new high-speed USB device number 2 using orion-ehci
+[   10.961580] ata1: SATA link down (SStatus 0 SControl F300)
+[   11.052958] usb 1-1: New USB device found, idVendor=1058, idProduct=071a
+[   11.052990] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   11.053012] usb 1-1: Product: My Passport 071A
+[   11.053028] usb 1-1: Manufacturer: Western Digital
+[   11.053045] usb 1-1: SerialNumber: 575843314137305338373630
+[   11.067155] Initializing USB Mass Storage driver...
+[   11.067487] scsi2 : usb-storage 1-1:1.0
+[   11.067815] usbcore: registered new interface driver usb-storage
+[   11.067839] USB Mass Storage support registered.
+[   11.311582] ata2: SATA link down (SStatus 0 SControl F300)
+[   11.696865] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[   12.065311] scsi 2:0:0:0: Direct-Access     WD       My Passport 071A 2019 PQ: 0 ANSI: 4
+[   12.067536] scsi 2:0:0:1: Enclosure         WD       SES Device       2019 PQ: 0 ANSI: 4
+[   12.805674] udevd[248]: starting version 175
+[   13.180285] sd 2:0:0:0: [sda] 976717824 512-byte logical blocks: (500 GB/465 GiB)
+[   13.183143] sd 2:0:0:0: [sda] Write Protect is off
+[   13.183182] sd 2:0:0:0: [sda] Mode Sense: 2b 00 10 08
+[   13.186146] sd 2:0:0:0: [sda] No Caching mode page found
+[   13.186184] sd 2:0:0:0: [sda] Assuming drive cache: write through
+[   13.194518] sd 2:0:0:0: [sda] No Caching mode page found
+[   13.194557] sd 2:0:0:0: [sda] Assuming drive cache: write through
+[   16.950395]  sda: sda1
+[   16.961239] sd 2:0:0:0: [sda] No Caching mode page found
+[   16.961274] sd 2:0:0:0: [sda] Assuming drive cache: write through
+[   16.961296] sd 2:0:0:0: [sda] Attached SCSI disk
+[   16.963764] ses 2:0:0:1: Attached Enclosure device
+[   16.996525] sd 2:0:0:0: Attached scsi generic sg0 type 0
+[   17.000258] ses 2:0:0:1: Attached scsi generic sg1 type 13
+[   17.793473] Adding 144380k swap on /dev/mmcblk0p5.  Priority:-1 extents:1 across:144380k SS
+[   17.862323] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+[   18.130361] EXT4-fs (mmcblk0p2): re-mounted. Opts: errors=remount-ro
+[   18.311906] loop: module loaded
+[   21.188321] kjournald starting.  Commit interval 5 seconds
+[   21.190638] EXT3-fs (sda1): using internal journal
+[   21.190675] EXT3-fs (sda1): mounted filesystem with ordered data mode
+[   22.514109] NET: Registered protocol family 10
+[   22.906633] ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   23.021117] RPC: Registered named UNIX socket transport module.
+[   23.021156] RPC: Registered udp transport module.
+[   23.021173] RPC: Registered tcp transport module.
+[   23.021189] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[   23.051999] FS-Cache: Loaded
+[   23.117199] FS-Cache: Netfs 'nfs' registered for caching
+[   23.153218] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+[   25.991589] mv643xx_eth_port mv643xx_eth_port.0: eth0: link up, 1000 Mb/s, full duplex, flow control disabled
+[   25.991829] ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
