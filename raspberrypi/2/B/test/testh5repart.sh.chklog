@@ -1,0 +1,12 @@
+============================
+testh5repart.sh  Test Log
+============================
+Testing h5repart -m 20000 family_file%05d.h5 /home/pi/hdf5/hdf5-1.8.15 PASSED
+Testing h5repart -m 5k family_file%05d.h5 /home/pi/hdf5/hdf5-1.8.15-pa PASSED
+Testing h5repart -m 20000 -family_to_sec2 family_file%05d.h5 /home/pi/ PASSED
+Testing repart_test                                                    PASSED
+
+All h5repart tests passed.
+
+Finished testing testh5repart.sh 
+============================
